@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+
+
+.box1{ 
+    height: 400px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto h1, h3, p{
+    color: white;
+    text-align: center;    
+}
+
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin: 30px;    
+}
+
+.social img{
+    margin-left: 10px;   
+}
+
+.ferramentas{
+    height: 400px;
+    background-color: white;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.titulo h1{
+    text-align: center;   
+    margin-right: 5px;
+}
+
