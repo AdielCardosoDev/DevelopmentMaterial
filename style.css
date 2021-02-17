@@ -3,93 +3,49 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 body{    
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif; 
+    
 }
 
-.box1{ 
-    height: 400px;
-    margin: 30px;
+.cabecalho{
+    height: 80px;
+    background-color: #212121;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.imagen{
-    height: 300px;
+.logo img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
 }
 
-.box1 img{
-    height: 100%;
-    
-}
-
-.texto h1, h3, p{
-    color: black;
-    text-align: center;    
-}
-
-.texto span{
-    font-weight: bold;
-}
-
-.social{
+.menu{
+    width: 200px;
     display: flex;
-    justify-content: center;
-    margin: 30px;    
-}
-
-.social img{
-    height: 100%;
-    margin-left: 10px;   
-}
-
-.ferramentas{
-    
-    height: 400px;
-    background-color: white;
-}
-
-.titulo{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding: 10px;    
 }
 
-.titulo h1{
-    text-align: center;   
-    margin-right: 10px;
+.menu a{
+    margin: 5px;
+    color: rgb(2, 253, 2);    
 }
 
-.titulo img{
-    height: 100%;
+.menu li{
+    padding: 10px 30px;
+    border-radius: 5px;  
 }
 
-.lista{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu li:hover{
+    background: rgb(255, 129, 10);
+    transition: 1s;
+    color: white;
 }
 
-.icons{
-    margin-top: 30px;
-    height: 300px;
-    width: 250px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 0px 1px #000000;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    flex-direction: column;
-}
-
-.icons a{
-    font-size: 1.5em;
-    color: rgb(233, 7, 7);
-    font-weight: bold;
-}
 
