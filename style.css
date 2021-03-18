@@ -141,7 +141,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     
+}
+
+.redes img{
+    height: 40px;
+    width: 40px;
+   margin: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    
+}
+
+.info span{
+    margin-top: 8px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
